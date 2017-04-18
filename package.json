@@ -1,0 +1,26 @@
+{
+  "name": "yile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "readableStream.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yileliu/rwstream.git"
+  },
+  "keywords": [
+    "stream"
+  ],
+  "author": "yile",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yileliu/rwstream/issues"
+  },
+  "homepage": "https://github.com/yileliu/rwstream#readme",
+  "dependencies": {
+    "request": "^2.81.0",
+    "zlib": "^1.0.5"
+  }
+}
