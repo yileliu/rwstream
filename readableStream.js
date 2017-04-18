@@ -14,4 +14,4 @@ s.on('end', ()=>{
 
 s.pipe(process.stdout);
 s.pipe(fs.createWriteStream('pluralsight.html'));
-s.pipe(zlib.createGzip()).pipe(fs.createWriteStream('pluralsight.html.gzip'));
+s.pipe(zlib.createGzip()).pipe(fs.createWriteStream('pluralsight.html.gz'));
